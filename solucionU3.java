@@ -12,7 +12,12 @@ public class solucionU3{
             System.out.println("3. Cerrar turno");
             System.out.print("Selecciona una operación:");
             opc=sc.nextInt();
-            
+            if(opc==2){
+                System.out.print("Ingrese el precio bruto del componente:");
+                double comp=sc.nextDouble();
+                double IBA=opera.cIVA(comp);
+                System.out.println(">>Precio neto procesado con 16% de IVA:"+ IBA);
+            }
             } while (opc!=3);
 
         }
