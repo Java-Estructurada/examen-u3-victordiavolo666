@@ -3,7 +3,7 @@ public class solucionU3{
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         int opc=0;
-        /*double IBA=opera.cIVA(opc);  MANDAR A LLAMAR A LA FUNCIÓN
+        /*double IBA=opera.cIVA(opc); EJEMPLO PARA MANDAR A LLAMAR A LA FUNCIÓN
         System.out.print(IBA);*/ 
         do {
             System.out.println("===SISTEMA DE AUDITORÍA TECH===");
@@ -12,8 +12,12 @@ public class solucionU3{
             System.out.println("3. Cerrar turno");
             System.out.print("Selecciona una operación:");
             opc=sc.nextInt();
-            if(opc==1){
+            if(opc==1){ 
+                System.out.print("¿Cuántas facturas se emitieron hoy?:");
+                int c=sc.nextInt();
                 
+                }
+
             }
             if(opc==2){
                 System.out.print("Ingrese el precio bruto del componente:");
